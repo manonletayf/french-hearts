@@ -1,0 +1,18 @@
+============================================================
+BOOTSTRAP POUR DIFFÉRENCE DE MACRO-F1
+============================================================
+
+Comparaison: CamemBERT-FR-Final vs LogisticRegression-TFIDF
+Nombre d'itérations: 2000
+
+F1 macro sur l'ensemble complet:
+  CamemBERT-FR-Final: 0.8255
+  LogisticRegression-TFIDF: 0.5353
+  ΔF1 observé (LogisticRegression-TFIDF - CamemBERT-FR-Final): -0.2901
+
+Résultats du bootstrap:
+  Moyenne de ΔF1:     -0.2895
+  Écart-type:         0.0190
+  IC 95%:             [-0.3263, -0.2528]
+
+INTERPRÉTATION: Modèle A significativement meilleur (IC ne contient pas 0)

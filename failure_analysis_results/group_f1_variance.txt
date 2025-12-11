@@ -1,0 +1,72 @@
+======================================================================
+VARIANCE DU F1 ENTRE LES GROUPES - CamemBERT-FR-Final
+======================================================================
+
+STATISTIQUES GLOBALES:
+----------------------------------------------------------------------
+Nombre de groupes: 10
+F1-macro moyen: 0.8430
+Écart-type: 0.0675
+Coefficient de variation: 8.00%
+F1 minimum: 0.6636
+F1 maximum: 0.9038
+Range (max - min): 0.2402
+
+F1-MACRO PAR GROUPE (trié du meilleur au pire):
+----------------------------------------------------------------------
+Groupe                           F1-macro   Accuracy        N    Erreurs
+----------------------------------------------------------------------
+socioeconomic                      0.9038     91.5%      117         10 ✓
+disability                         0.8980     91.4%       35          3 ✓
+sexual-orientation                 0.8860     90.6%       53          5 ✓
+nationality                        0.8829     89.3%      149         16 ✓
+autre                              0.8730     87.5%        8          1 ✓
+religion                           0.8587     87.1%       70          9 ✓
+physical-appearance                0.8392     87.0%       46          6 ✗
+race-color                         0.8200     83.3%      275         46 ✗
+age                                0.8043     82.8%       58         10 ✗
+gender                             0.6636     75.4%      195         48 ✗
+
+ANALYSE DE VARIANCE:
+----------------------------------------------------------------------
+
+Groupes au-dessus de la moyenne (6):
+  • socioeconomic: F1 = 0.9038 (+0.0609)
+  • disability: F1 = 0.8980 (+0.0550)
+  • sexual-orientation: F1 = 0.8860 (+0.0431)
+  • nationality: F1 = 0.8829 (+0.0399)
+  • autre: F1 = 0.8730 (+0.0301)
+  • religion: F1 = 0.8587 (+0.0158)
+
+Groupes en-dessous de la moyenne (4):
+  • gender: F1 = 0.6636 (-0.1794)
+  • age: F1 = 0.8043 (-0.0386)
+  • race-color: F1 = 0.8200 (-0.0229)
+  • physical-appearance: F1 = 0.8392 (-0.0038)
+
+======================================================================
+TOP 5 MEILLEURS GROUPES:
+----------------------------------------------------------------------
+1. socioeconomic
+   F1-macro: 0.9038 | Accuracy: 91.5% | Exemples: 117 | Erreurs: 10
+2. disability
+   F1-macro: 0.8980 | Accuracy: 91.4% | Exemples: 35 | Erreurs: 3
+3. sexual-orientation
+   F1-macro: 0.8860 | Accuracy: 90.6% | Exemples: 53 | Erreurs: 5
+4. nationality
+   F1-macro: 0.8829 | Accuracy: 89.3% | Exemples: 149 | Erreurs: 16
+5. autre
+   F1-macro: 0.8730 | Accuracy: 87.5% | Exemples: 8 | Erreurs: 1
+
+TOP 5 PIRES GROUPES:
+----------------------------------------------------------------------
+1. gender
+   F1-macro: 0.6636 | Accuracy: 75.4% | Exemples: 195 | Erreurs: 48
+2. age
+   F1-macro: 0.8043 | Accuracy: 82.8% | Exemples: 58 | Erreurs: 10
+3. race-color
+   F1-macro: 0.8200 | Accuracy: 83.3% | Exemples: 275 | Erreurs: 46
+4. physical-appearance
+   F1-macro: 0.8392 | Accuracy: 87.0% | Exemples: 46 | Erreurs: 6
+5. religion
+   F1-macro: 0.8587 | Accuracy: 87.1% | Exemples: 70 | Erreurs: 9

@@ -1,0 +1,18 @@
+============================================================
+BOOTSTRAP POUR DIFFÉRENCE DE MACRO-F1
+============================================================
+
+Comparaison: CamemBERT-lr-2e5 vs Ablation-lr-5e5
+Nombre d'itérations: 2000
+
+F1 macro sur l'ensemble complet:
+  CamemBERT-lr-2e5: 0.8255
+  Ablation-lr-5e5: 0.8324
+  ΔF1 observé (Ablation-lr-5e5 - CamemBERT-lr-2e5): 0.0070
+
+Résultats du bootstrap:
+  Moyenne de ΔF1:     0.0072
+  Écart-type:         0.0081
+  IC 95%:             [-0.0087, 0.0228]
+
+INTERPRÉTATION: Pas de différence significative (IC contient 0)

@@ -1,0 +1,43 @@
+======================================================================
+MATRICE DE CONFUSION - CamemBERT-FR-Final
+======================================================================
+
+MATRICE BRUTE (nombre d'exemples):
+----------------------------------------------------------------------
+                             0              1
+              0            603             68
+              1             86            249
+
+MATRICE NORMALISÉE (% par classe réelle):
+----------------------------------------------------------------------
+                             0              1
+              0         89.9%         10.1%
+              1         25.7%         74.3%
+
+RAPPORT DE CLASSIFICATION:
+----------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+           0       0.88      0.90      0.89       671
+           1       0.79      0.74      0.76       335
+
+    accuracy                           0.85      1006
+   macro avg       0.83      0.82      0.83      1006
+weighted avg       0.85      0.85      0.85      1006
+
+ANALYSE DES ERREURS PAR CLASSE:
+----------------------------------------------------------------------
+
+0:
+  Total d'exemples: 671
+  Correctement classés: 603 (89.9%)
+  Erreurs: 68 (10.1%)
+  Confusions principales:
+    → 1: 68 (10.1%)
+
+1:
+  Total d'exemples: 335
+  Correctement classés: 249 (74.3%)
+  Erreurs: 86 (25.7%)
+  Confusions principales:
+    → 0: 86 (25.7%)

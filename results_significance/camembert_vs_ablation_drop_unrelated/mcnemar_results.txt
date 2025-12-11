@@ -1,0 +1,18 @@
+============================================================
+TEST DE MCNEMAR
+============================================================
+
+Comparaison: CamemBERT-FR-Final vs Ablation-A-drop-unrelated
+
+Tableau de contingence:
+  Les deux corrects:           108
+  Les deux incorrects:          18
+  CamemBERT-FR-Final correct, Ablation-A-drop-unrelated incorrect (b):    9
+  CamemBERT-FR-Final incorrect, Ablation-A-drop-unrelated correct (c):    6
+
+Résultats:
+  Statistique Chi²: 0.2667
+  p-value:          0.605577
+  Significativité:  ns (non significatif)
+
+CONCLUSION: Pas de différence significative entre les deux modèles.

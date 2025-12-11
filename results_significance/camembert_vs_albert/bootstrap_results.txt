@@ -1,0 +1,18 @@
+============================================================
+BOOTSTRAP POUR DIFFÉRENCE DE MACRO-F1
+============================================================
+
+Comparaison: CamemBERT-FR-Final vs ALBERT-base-v2
+Nombre d'itérations: 2000
+
+F1 macro sur l'ensemble complet:
+  CamemBERT-FR-Final: 0.8255
+  ALBERT-base-v2: 0.7198
+  ΔF1 observé (ALBERT-base-v2 - CamemBERT-FR-Final): -0.1057
+
+Résultats du bootstrap:
+  Moyenne de ΔF1:     -0.1056
+  Écart-type:         0.0160
+  IC 95%:             [-0.1356, -0.0732]
+
+INTERPRÉTATION: Modèle A significativement meilleur (IC ne contient pas 0)

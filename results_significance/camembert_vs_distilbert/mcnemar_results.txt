@@ -1,0 +1,18 @@
+============================================================
+TEST DE MCNEMAR
+============================================================
+
+Comparaison: CamemBERT-FR-Final vs DistilBERT-multilingual
+
+Tableau de contingence:
+  Les deux corrects:           739
+  Les deux incorrects:         114
+  CamemBERT-FR-Final correct, DistilBERT-multilingual incorrect (b):  115
+  CamemBERT-FR-Final incorrect, DistilBERT-multilingual correct (c):   40
+
+Résultats:
+  Statistique Chi²: 35.3290
+  p-value:          0.000000
+  Significativité:  *** (p < 0.001)
+
+CONCLUSION: Il existe une différence significative entre les deux modèles.

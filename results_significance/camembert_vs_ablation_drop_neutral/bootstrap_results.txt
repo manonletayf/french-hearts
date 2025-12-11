@@ -1,0 +1,18 @@
+============================================================
+BOOTSTRAP POUR DIFFÉRENCE DE MACRO-F1
+============================================================
+
+Comparaison: CamemBERT-FR-Final vs Ablation-B-drop-neutral
+Nombre d'itérations: 2000
+
+F1 macro sur l'ensemble complet:
+  CamemBERT-FR-Final: 0.8739
+  Ablation-B-drop-neutral: 0.9681
+  ΔF1 observé (Ablation-B-drop-neutral - CamemBERT-FR-Final): 0.0941
+
+Résultats du bootstrap:
+  Moyenne de ΔF1:     0.0948
+  Écart-type:         0.0298
+  IC 95%:             [0.0393, 0.1566]
+
+INTERPRÉTATION: Modèle B significativement meilleur (IC ne contient pas 0)

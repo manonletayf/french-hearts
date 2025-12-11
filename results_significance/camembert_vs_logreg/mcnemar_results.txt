@@ -1,0 +1,18 @@
+============================================================
+TEST DE MCNEMAR
+============================================================
+
+Comparaison: CamemBERT-FR-Final vs LogisticRegression-TFIDF
+
+Tableau de contingence:
+  Les deux corrects:           531
+  Les deux incorrects:         105
+  CamemBERT-FR-Final correct, LogisticRegression-TFIDF incorrect (b):  323
+  CamemBERT-FR-Final incorrect, LogisticRegression-TFIDF correct (c):   49
+
+Résultats:
+  Statistique Chi²: 200.3468
+  p-value:          0.000000
+  Significativité:  *** (p < 0.001)
+
+CONCLUSION: Il existe une différence significative entre les deux modèles.

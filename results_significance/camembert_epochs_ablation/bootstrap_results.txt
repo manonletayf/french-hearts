@@ -1,0 +1,18 @@
+============================================================
+BOOTSTRAP POUR DIFFÉRENCE DE MACRO-F1
+============================================================
+
+Comparaison: CamemBERT-epochs-6 vs Ablation-epochs-8
+Nombre d'itérations: 2000
+
+F1 macro sur l'ensemble complet:
+  CamemBERT-epochs-6: 0.8255
+  Ablation-epochs-8: 0.8117
+  ΔF1 observé (Ablation-epochs-8 - CamemBERT-epochs-6): -0.0138
+
+Résultats du bootstrap:
+  Moyenne de ΔF1:     -0.0134
+  Écart-type:         0.0100
+  IC 95%:             [-0.0335, 0.0059]
+
+INTERPRÉTATION: Pas de différence significative (IC contient 0)

@@ -1,0 +1,18 @@
+============================================================
+TEST DE MCNEMAR
+============================================================
+
+Comparaison: CamemBERT-lr-2e5 vs Ablation-lr-5e5
+
+Tableau de contingence:
+  Les deux corrects:           832
+  Les deux incorrects:         125
+  CamemBERT-lr-2e5 correct, Ablation-lr-5e5 incorrect (b):   22
+  CamemBERT-lr-2e5 incorrect, Ablation-lr-5e5 correct (c):   29
+
+Résultats:
+  Statistique Chi²: 0.7059
+  p-value:          0.400814
+  Significativité:  ns (non significatif)
+
+CONCLUSION: Pas de différence significative entre les deux modèles.

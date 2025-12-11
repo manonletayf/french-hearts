@@ -1,0 +1,18 @@
+============================================================
+TEST DE MCNEMAR
+============================================================
+
+Comparaison: CamemBERT-epochs-6 vs Ablation-epochs-8
+
+Tableau de contingence:
+  Les deux corrects:           814
+  Les deux incorrects:         122
+  CamemBERT-epochs-6 correct, Ablation-epochs-8 incorrect (b):   40
+  CamemBERT-epochs-6 incorrect, Ablation-epochs-8 correct (c):   32
+
+Résultats:
+  Statistique Chi²: 0.6806
+  p-value:          0.409395
+  Significativité:  ns (non significatif)
+
+CONCLUSION: Pas de différence significative entre les deux modèles.

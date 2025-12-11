@@ -1,0 +1,18 @@
+============================================================
+BOOTSTRAP POUR DIFFÉRENCE DE MACRO-F1
+============================================================
+
+Comparaison: CamemBERT-maxlen-512 vs Ablation-maxlen-128
+Nombre d'itérations: 2000
+
+F1 macro sur l'ensemble complet:
+  CamemBERT-maxlen-512: 0.8255
+  Ablation-maxlen-128: 0.8246
+  ΔF1 observé (Ablation-maxlen-128 - CamemBERT-maxlen-512): -0.0008
+
+Résultats du bootstrap:
+  Moyenne de ΔF1:     -0.0007
+  Écart-type:         0.0095
+  IC 95%:             [-0.0190, 0.0187]
+
+INTERPRÉTATION: Pas de différence significative (IC contient 0)

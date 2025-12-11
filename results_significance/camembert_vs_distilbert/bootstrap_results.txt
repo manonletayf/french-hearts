@@ -1,0 +1,18 @@
+============================================================
+BOOTSTRAP POUR DIFFÉRENCE DE MACRO-F1
+============================================================
+
+Comparaison: CamemBERT-FR-Final vs DistilBERT-multilingual
+Nombre d'itérations: 2000
+
+F1 macro sur l'ensemble complet:
+  CamemBERT-FR-Final: 0.8255
+  DistilBERT-multilingual: 0.7398
+  ΔF1 observé (DistilBERT-multilingual - CamemBERT-FR-Final): -0.0856
+
+Résultats du bootstrap:
+  Moyenne de ΔF1:     -0.0855
+  Écart-type:         0.0145
+  IC 95%:             [-0.1143, -0.0566]
+
+INTERPRÉTATION: Modèle A significativement meilleur (IC ne contient pas 0)

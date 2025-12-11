@@ -1,0 +1,18 @@
+============================================================
+TEST DE MCNEMAR
+============================================================
+
+Comparaison: CamemBERT-FR-Final vs Ablation-B-drop-neutral
+
+Tableau de contingence:
+  Les deux corrects:           109
+  Les deux incorrects:           2
+  CamemBERT-FR-Final correct, Ablation-B-drop-neutral incorrect (b):    2
+  CamemBERT-FR-Final incorrect, Ablation-B-drop-neutral correct (c):   14
+
+Résultats:
+  Statistique Chi²: 7.5625
+  p-value:          0.005960
+  Significativité:  ** (p < 0.01)
+
+CONCLUSION: Il existe une différence significative entre les deux modèles.

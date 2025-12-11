@@ -1,0 +1,18 @@
+============================================================
+TEST DE MCNEMAR
+============================================================
+
+Comparaison: CamemBERT-FR-Final vs ALBERT-base-v2
+
+Tableau de contingence:
+  Les deux corrects:           672
+  Les deux incorrects:          90
+  CamemBERT-FR-Final correct, ALBERT-base-v2 incorrect (b):  182
+  CamemBERT-FR-Final incorrect, ALBERT-base-v2 correct (c):   64
+
+Résultats:
+  Statistique Chi²: 55.6463
+  p-value:          0.000000
+  Significativité:  *** (p < 0.001)
+
+CONCLUSION: Il existe une différence significative entre les deux modèles.

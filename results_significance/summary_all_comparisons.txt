@@ -1,0 +1,85 @@
+================================================================================
+RAPPORT RÉCAPITULATIF - TESTS DE SIGNIFICATIVITÉ STATISTIQUE
+Projet HEARTS-FR
+================================================================================
+
+Date: 2025-12-10 19:30:09
+
+STATISTIQUES GLOBALES
+--------------------------------------------------------------------------------
+Total de comparaisons: 8
+Succès: 8
+Échecs: 0
+Temps total: 15.0s (0.2 minutes)
+
+RÉSULTATS PAR CATÉGORIE
+--------------------------------------------------------------------------------
+
+Baseline Comparison:
+  ✓ CamemBERT-FR vs ALBERT-baseline
+  ✓ CamemBERT-FR vs DistilBERT-multilingual
+  ✓ CamemBERT-FR vs Régression Logistique
+
+Ablation Study:
+  ✓ CamemBERT-FR vs Ablation (sans unrelated)
+  ✓ CamemBERT-FR vs Ablation (sans neutral)
+
+Hyperparameter Study:
+  ✓ CamemBERT max_length ablation
+  ✓ CamemBERT learning rate ablation
+  ✓ CamemBERT epochs ablation
+
+DÉTAILS DE CHAQUE COMPARAISON
+--------------------------------------------------------------------------------
+
+1. CamemBERT-FR vs ALBERT-baseline
+   Script: compare_0_camembert_vs_albert.py
+   Catégorie: Baseline Comparison
+   Status: success
+   Temps: 1.9s
+
+2. CamemBERT-FR vs DistilBERT-multilingual
+   Script: compare_1_camembert_vs_distilbert.py
+   Catégorie: Baseline Comparison
+   Status: success
+   Temps: 1.9s
+
+3. CamemBERT-FR vs Régression Logistique
+   Script: compare_2_camembert_vs_logreg.py
+   Catégorie: Baseline Comparison
+   Status: success
+   Temps: 1.9s
+
+4. CamemBERT-FR vs Ablation (sans unrelated)
+   Script: compare_3_camembert_vs_ablation_drop_unrelated.py
+   Catégorie: Ablation Study
+   Status: success
+   Temps: 1.8s
+
+5. CamemBERT-FR vs Ablation (sans neutral)
+   Script: compare_4_camembert_vs_ablation_drop_neutral.py
+   Catégorie: Ablation Study
+   Status: success
+   Temps: 1.8s
+
+6. CamemBERT max_length ablation
+   Script: compare_6_camembert_maxlen.py
+   Catégorie: Hyperparameter Study
+   Status: success
+   Temps: 1.9s
+
+7. CamemBERT learning rate ablation
+   Script: compare_7_camembert_learning_rate.py
+   Catégorie: Hyperparameter Study
+   Status: success
+   Temps: 1.9s
+
+8. CamemBERT epochs ablation
+   Script: compare_8_camembert_epochs.py
+   Catégorie: Hyperparameter Study
+   Status: success
+   Temps: 1.9s
+
+================================================================================
+FIN DU RAPPORT
+================================================================================

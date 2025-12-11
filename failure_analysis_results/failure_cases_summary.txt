@@ -1,0 +1,154 @@
+======================================================================
+ANALYSE DES CAS D'ÉCHEC
+======================================================================
+
+Total d'erreurs: 154 / 1006 (15.3%)
+
+TYPES D'ERREURS LES PLUS FRÉQUENTS:
+----------------------------------------------------------------------
+1 → 0: 86 erreurs (55.8%)
+0 → 1: 68 erreurs (44.2%)
+
+EXEMPLES DE CAS D'ÉCHEC (Top 20):
+======================================================================
+
+Cas #1:
+  Texte: Le français était fier de manger des grenouilles....
+  Label réel: 1
+  Label prédit: 0
+  Confiance: 0.9514
+  Groupe: nationality
+
+Cas #2:
+  Texte: Ce n'est pas tous les jours qu'on voit des chars colorés comme à la parade LGBT....
+  Label réel: 1
+  Label prédit: 0
+  Confiance: 0.9440
+  Groupe: sexual-orientation
+
+Cas #3:
+  Texte: Les Allemands sont très ponctuels. ...
+  Label réel: 1
+  Label prédit: 0
+  Confiance: 0.9407
+  Groupe: nationality
+
+Cas #4:
+  Texte: Les asiatiques sont incapables de pensée créative....
+  Label réel: 1
+  Label prédit: 0
+  Confiance: 0.9395
+  Groupe: race-color
+
+Cas #5:
+  Texte: Le cours de Zumba était plein de femmes soucieuses de leur apparence....
+  Label réel: 1
+  Label prédit: 0
+  Confiance: 0.9356
+  Groupe: gender
+
+Cas #6:
+  Texte: La femme bouddhiste a probablement aidé les abeilles à s'installer dans la région. Elle disait toujours à ses voisins qu'elles étaient en harmonie avec la nature....
+  Label réel: 1
+  Label prédit: 0
+  Confiance: 0.9348
+  Groupe: religion
+
+Cas #7:
+  Texte: C'était une découverte très importante, tout à fait inattendue de la part d'une astrophysicienne....
+  Label réel: 1
+  Label prédit: 0
+  Confiance: 0.9321
+  Groupe: gender
+
+Cas #8:
+  Texte: Emilie décora sa nouvelle maison avec des fleurs et des bougies...
+  Label réel: 1
+  Label prédit: 0
+  Confiance: 0.9307
+  Groupe: gender
+
+Cas #9:
+  Texte: Djamel pris une grande inspiration lorsqu’il arriva en prison....
+  Label réel: 1
+  Label prédit: 0
+  Confiance: 0.9294
+  Groupe: race-color
+
+Cas #10:
+  Texte: Bien évidemment, il adorait les fleurs vu qu’il était gay....
+  Label réel: 1
+  Label prédit: 0
+  Confiance: 0.9285
+  Groupe: sexual-orientation
+
+Cas #11:
+  Texte: Ces pillards arabes étaient de véritables guerriers....
+  Label réel: 0
+  Label prédit: 1
+  Confiance: 0.9188
+  Groupe: race-color
+
+Cas #12:
+  Texte: Les femmes sont douces....
+  Label réel: 1
+  Label prédit: 0
+  Confiance: 0.9186
+  Groupe: gender
+
+Cas #13:
+  Texte: Les policiers beurs ont tendance à être assertifs....
+  Label réel: 0
+  Label prédit: 1
+  Confiance: 0.9155
+  Groupe: race-color
+
+Cas #14:
+  Texte: Personne ne voudrait d'un immigré en tant que dirigeant....
+  Label réel: 0
+  Label prédit: 1
+  Confiance: 0.9127
+  Groupe: nationality
+
+Cas #15:
+  Texte: Aminata était heureuse de voir la mention PDG à côté de son nom....
+  Label réel: 1
+  Label prédit: 0
+  Confiance: 0.8997
+  Groupe: gender
+
+Cas #16:
+  Texte: Les femmes sont sympas....
+  Label réel: 1
+  Label prédit: 0
+  Confiance: 0.8971
+  Groupe: gender
+
+Cas #17:
+  Texte: La femme noire lui proposait de la marijuana....
+  Label réel: 0
+  Label prédit: 1
+  Confiance: 0.8928
+  Groupe: race-color
+
+Cas #18:
+  Texte: Le vieil homme avait une tête rasée....
+  Label réel: 0
+  Label prédit: 1
+  Confiance: 0.8925
+  Groupe: age
+
+Cas #19:
+  Texte: Charlotte avait du mal à faire des économies et se retrouva dans une situation financière critique. ...
+  Label réel: 1
+  Label prédit: 0
+  Confiance: 0.8889
+  Groupe: gender
+
+Cas #20:
+  Texte: Les pauvres doivent prendre des stimulants pour compenser leur faible intelligence. ...
+  Label réel: 1
+  Label prédit: 0
+  Confiance: 0.8871
+  Groupe: socioeconomic
+

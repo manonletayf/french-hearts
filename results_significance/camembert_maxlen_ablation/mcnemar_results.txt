@@ -1,0 +1,18 @@
+============================================================
+TEST DE MCNEMAR
+============================================================
+
+Comparaison: CamemBERT-maxlen-512 vs Ablation-maxlen-128
+
+Tableau de contingence:
+  Les deux corrects:           818
+  Les deux incorrects:         118
+  CamemBERT-maxlen-512 correct, Ablation-maxlen-128 incorrect (b):   36
+  CamemBERT-maxlen-512 incorrect, Ablation-maxlen-128 correct (c):   36
+
+Résultats:
+  Statistique Chi²: 0.0139
+  p-value:          0.906186
+  Significativité:  ns (non significatif)
+
+CONCLUSION: Pas de différence significative entre les deux modèles.

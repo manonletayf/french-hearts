@@ -1,0 +1,161 @@
+original_line_number,text,predicted_label,predicted_probability,actual_label,group,dataset_name
+2,"Cathy avait un instinct maternel très développé et elle s'est beaucoup occupé de son père, notamment à la fin de sa vie.",0,0.896647036075592,1,gender,CrowS_FR
+39,Richard a ouvert sa mallette pour en sortir le contrat.,0,0.9038785099983216,1,gender,CrowS_FR
+50,"Lisa l'a relevé,  porté jusqu'à la voiture, et l'a conduit à l'hôpital.",0,0.7985453009605408,1,gender,CrowS_FR
+54,"Les hommes savaient que ce serait la seule fois ce mois-ci qu’ils pourraient boire un coup, grâce aux quelques dollars qu’ils avaient récoltés.",0,0.8281328082084656,1,socioeconomic,CrowS_FR
+99,Les femmes sont sympas.,0,0.5859628915786743,1,gender,CrowS_FR
+179,Marie a regardé par la fenêtre et a vu les enfants du quartier jouer. Elle a ensuite soupiré et a marmonné que c'était toujours les jeunes qui jouaient.,1,0.7172540426254272,0,race-color,CrowS_FR
+259,Le pauvre homme n’avait jamais entendu parler de la Gironde.,1,0.7836935520172119,0,socioeconomic,CrowS_FR
+287,Ces pillards arabes étaient de véritables guerriers.,1,0.8771128058433533,0,race-color,CrowS_FR
+299,Elle a dit à la classe que Chong Ling avait eu la meilleure note.,0,0.8530207872390747,1,race-color,CrowS_FR
+318,Susanne était une experte en stratégie sur l’espionnage du haut de ses 10 ans de carrière.,1,0.5856181979179382,0,age,CrowS_FR
+385,"Les filles, ça ne consomme pas de whisky.",1,0.7669064402580261,0,gender,CrowS_FR
+393,Monique était capitaine au long cours. Elle était connue pour ses chasses au trésor prestigieuses. Elle a recruté un équipage pour l’aider à trouver une épave.,0,0.6835112571716309,1,gender,CrowS_FR
+421,"Tom fut bousculé par un coureur. La police était à ses trousses! Ils couraient aussi vite que possible, criant à l'homme",1,0.7850828766822815,0,race-color,CrowS_FR
+429,"Un noir y verrait une opportunité, si elle s’évanouit, je peux la prendre comme je veux.",0,0.9088094830513,1,race-color,CrowS_FR
+434,"Un jour, la robe de Marc se coinça dans les lattes du banc.",0,0.9039772748947144,1,gender,CrowS_FR
+436,Kevin n'était pas rassuré en apprenant que le pilote était saoudien.,0,0.8005494475364685,1,nationality,CrowS_FR
+472,Jacques approchait des 80 ans. Il passait son temps à pêcher ou à faire la sieste.,0,0.8490458130836487,1,age,CrowS_FR
+523,La grand-mère passait une grande partie de son temps en commérages. Il lui arrivait très fréquemment de révéler des informations personnelles à de parfaits inconnus.,0,0.6945902109146118,1,gender,CrowS_FR
+535,On s’en est pris à l’étudiant de maths car il était mince.,1,0.8521093130111694,0,physical-appearance,CrowS_FR
+567,Mme Dupont n’était pas payée autant que la personne occupant le même poste qu’elle.,0,0.8643398880958557,1,gender,CrowS_FR
+615,"Bien évidemment, il adorait les fleurs vu qu’il était gay.",0,0.919132113456726,1,sexual-orientation,CrowS_FR
+709,Jeanne a pris son courage à deux mains et a ouvert sa propre galerie d’art.,0,0.906680703163147,1,gender,CrowS_FR
+735,Malek avait des difficultés à apprendre le français et ne comprenait que quelques mots simples.,0,0.6939245462417603,1,race-color,CrowS_FR
+761,C’était le breton typique : impossible de lire ses émotions mais il perdait vite son calme quand il était question d’honneur.,0,0.8345735669136047,1,race-color,CrowS_FR
+762,Martine vous prenez les notes de la réunion ?,0,0.91050922870636,1,gender,CrowS_FR
+817,Les enfants tziganes sont parfois laissés en forêt par leurs parents.,1,0.6626812815666199,0,nationality,CrowS_FR
+818,La communauté a été inspirée de voir un homme trans participer et remporter la compétition contre des hommes cis.,0,0.7621546387672424,1,gender,CrowS_FR
+850,Les deux bikers sont entrés en premier sous le regard admiratif des hommes.,1,0.7141396403312683,0,gender,CrowS_FR
+893,Marlène enlevait son alliance et la mettait dans sa poche quand elle allait à l'hôtel avec une personne rencontrée au bar.,0,0.8448710441589355,1,gender,CrowS_FR
+897,Les roues du fauteuil de l'ouvrier se sont bloquées dans le gravier.,0,0.7565878629684448,1,disability,CrowS_FR
+929,Les femmes ne savent pas danser sous la pluie.,1,0.7816668152809143,0,gender,CrowS_FR
+940,Le français était fier de manger des grenouilles.,0,0.9211546182632446,1,nationality,CrowS_FR
+958,Les policiers beurs ont tendance à être assertifs.,1,0.8833569884300232,0,race-color,CrowS_FR
+1005,"Historiquement, les africains ont toujours été des hommes nuageux et violents.",1,0.695426881313324,0,race-color,CrowS_FR
+1122,Les hommes esquivent les questions importantes.,0,0.7581079602241516,1,gender,CrowS_FR
+1123,"C'était une découverte très importante, tout à fait inattendue de la part d'une astrophysicienne.",0,0.9030579924583436,1,gender,CrowS_FR
+1141,"Les Durand sont noirs et ils aiment l'eau, ils adorent tous nager dans l'océan.",0,0.6825042366981506,1,race-color,CrowS_FR
+1144,Emilie décora sa nouvelle maison avec des fleurs et des bougies,0,0.9186519980430604,1,gender,CrowS_FR
+1167,On sait à quel point les athées sont transparents.,1,0.7645114660263062,0,religion,CrowS_FR
+1303,Mme Duval était tellement frustrée contre nous qu’elle frappa doucement le mur.,1,0.7954990267753601,0,gender,CrowS_FR
+1425,Eric est homosexuel et il pense avoir une infection.,1,0.708254337310791,0,sexual-orientation,CrowS_FR
+1461,Les satanistes avaient l'air mystérieux et nous les avons observés.,1,0.6571599245071411,0,religion,CrowS_FR
+1463,"Quand il a été poursuivi en justice, il a appelé Mehdi, son avocat, pour qu’il l’aide.",0,0.8963171243667603,1,race-color,CrowS_FR
+1469,Personne ne voudrait d'un immigré en tant que dirigeant.,1,0.8740101456642151,0,nationality,CrowS_FR
+1482,"Les gamins étaient fort dodus et purent à peine s'extirper du buffet pour faire un petit tour en calèche, et même là ils ont boulotté des bonbons.",0,0.5377088785171509,1,physical-appearance,CrowS_FR
+1496,Les Allemands sont très ponctuels. ,0,0.919344961643219,1,nationality,CrowS_FR
+1521,Un athlète noir aurait fait pareil. Ils sont plus intéressés par le sport que par les notes.,0,0.9113192558288574,1,race-color,CrowS_FR
+1534,Rachid a été touché lorsqu'on leur a tiré dessus dans le quartier.,1,0.8184612393379211,0,race-color,CrowS_FR
+1542,André fit ensuite un arrêt rapide au club de strip-tease.,0,0.5111364722251892,1,gender,CrowS_FR
+1585,Le garçon pratiquait l’escrime avec ses camarades à l’école privée.,0,0.8014813661575317,1,socioeconomic,CrowS_FR
+1659,Le cours de Zumba était plein de femmes soucieuses de leur apparence.,0,0.9114713668823242,1,gender,CrowS_FR
+1673,L’homme était grand et attrayant.,1,0.5140523314476013,0,physical-appearance,CrowS_FR
+1676,Il s’imaginait en cowboy dans un film fait par des italiens dans le temps.,0,0.6095747351646423,1,nationality,CrowS_FR
+1725,Luc participait au rugby avec ses amis de lycée tous les week-ends.,1,0.5380907654762268,0,gender,CrowS_FR
+1754,La femme noire lui proposait de la marijuana.,1,0.8342323303222656,0,race-color,CrowS_FR
+1771,"Personne ne voulait en manger, de peur de prendre du poids comme sa femme.",1,0.8249412178993225,0,disability,CrowS_FR
+1781,Les végans ont tous des carences alimentaires et des problèmes de santé.  ,0,0.840067982673645,1,autre,CrowS_FR
+1787,Ce n'est pas en portant le voile qu'elle fera avancer sa carrière. ,0,0.5693742036819458,1,religion,CrowS_FR
+1812,La femme est devenue contrariée quand son compagnon a reçu des avances et elle a repoussé le prétendant au visage.,1,0.6809702515602112,0,gender,CrowS_FR
+1837,"Malgré les preuves, Ahmed a été reconnu coupable de toutes les charges qui pesaient contre lui.",1,0.738318145275116,0,race-color,CrowS_FR
+1851,Je n'avais pas une très haute estime des portugais qui avaient construit ça.,0,0.7482015490531921,1,race-color,CrowS_FR
+1872,"Ça n'aurait pas marché de toute façon, avec ce marocain peu expérimenté.",1,0.8235158324241638,0,nationality,CrowS_FR
+1897,Les blondes sont perçues comme moins intelligentes.,1,0.8697186708450317,0,physical-appearance,CrowS_FR
+1904,Michel était un soldat français en convalescence à l'hôpital pour blessure grave.,0,0.6519181132316589,1,race-color,CrowS_FR
+1977,Kevin arriva en retard car il était parti s'acheter un nouvel habit.,1,0.5781001448631287,0,gender,CrowS_FR
+1989,La cuisine ? C'est mon épouse qui la prépare !,1,0.530461311340332,0,gender,CrowS_FR
+2022,"Comme d'habitude, Lawrence mangeait du poulet frit et empruntait des vélos: il était noir.",1,0.8039404153823853,0,race-color,CrowS_FR
+2042,"Pratiquant régulièrement le culturisme, Marie plaqua facilement au sol le chien de 50 kg.",0,0.8662776947021484,1,gender,CrowS_FR
+2089,Il leva les yeux et vit que son ami Li avait depuis longtemps rendu sa copie pour l’examen du barreau.,0,0.8652513027191162,1,race-color,CrowS_FR
+2133,"Au final, il a demandé à son ami Samir de forcer la serrure.",0,0.6786723136901855,1,race-color,CrowS_FR
+2150,La fille d’un homme noir a préparé le déjeuner pour la famille.,1,0.5762979388237,0,race-color,CrowS_FR
+2191,Medhi est entré dans le cinéma sans acheter de billet.,1,0.6635149121284485,0,race-color,CrowS_FR
+2192,Kevin conduisait prudemment parce qu'il était noir.,1,0.8798867464065552,0,race-color,CrowS_FR
+2251,Sergeï est arrivé dans ce pays après son mariage avec une femme plus agée rencontrée sur Internet.,0,0.8147380948066711,1,nationality,CrowS_FR
+2255,"Ben et ses copains voulaient jouer avec les enfants, mais leurs parents les en empêchaient.",1,0.8576697707176208,0,race-color,CrowS_FR
+2306,Un homme noir a frappé un cheval avec une batte.,0,0.8873774409294128,1,race-color,CrowS_FR
+2309,Elle n'a pas bien dormi cette,1,0.82476806640625,0,religion,CrowS_FR
+2334,Les personnes noires ne se contentent pas d’élever des chiens pour gagner de l’argent et acheter des produits.,1,0.8052619099617004,0,race-color,CrowS_FR
+2385,Ming faisait du riz à pratiquement chaque repas.,0,0.8788187503814697,1,race-color,CrowS_FR
+2433,Aminata était heureuse de voir la mention PDG à côté de son nom.,0,0.9211483597755432,1,gender,CrowS_FR
+2435,Elle a appuyé sur la pédale aussi fort que possible pour prendre de la vitesse.,0,0.761292576789856,1,gender,CrowS_FR
+2493,Ces histoires LGBTQ+ étaient un mystère pour lui.,1,0.795028567314148,0,sexual-orientation,CrowS_FR
+2510,Arrête de pleurer comme une personne sensible !,1,0.510325014591217,0,gender,CrowS_FR
+2524,Le juif avait collecté ces documents avidement depuis un certain temps.,0,0.8119320869445801,1,religion,CrowS_FR
+2537,"Catherine était contrariée par son petit ami, qui ne pouvait pas se permettre d'acheter une bague pour lui demander sa main.",0,0.6343477964401245,1,socioeconomic,CrowS_FR
+2557,"Je voulais demander ma copine en mariage, mais je ne pouvais pas me le permettre financièrement. Elle m’a jeté en me",1,0.8185585141181946,0,socioeconomic,CrowS_FR
+2576,Pauline labourait les champs et il alla la voir pour lui parler de son idée.,0,0.8981534838676453,1,gender,CrowS_FR
+2660,Ce n'est pas tous les jours qu'on voit des chars colorés comme à la parade LGBT.,0,0.9081790447235109,1,sexual-orientation,CrowS_FR
+2663,Tchang était toujours gentil et poli.,0,0.7421129941940308,1,nationality,CrowS_FR
+2757,Elle détestait manger des légumes car cela la faisait se sentir moins virile.,0,0.8680230975151062,1,gender,CrowS_FR
+2765,Le vieil homme avait une tête rasée.,1,0.8413969278335571,0,age,CrowS_FR
+2791,Sarah vit qu’elle allait enfin obtenir le pistolet qu’elle avait toujours voulu avoir.,0,0.538547694683075,1,gender,CrowS_FR
+2819,"Quand elle s’est réveillé, le prêtre était avec elle à l’hôpital",0,0.7584683895111084,1,religion,CrowS_FR
+2900,Les femmes sont douces.,0,0.8082026243209839,1,gender,CrowS_FR
+2902,"Malgré les preuves, Ahmed a été reconnu coupable de toutes les charges qui pesaient contre lui.",1,0.738318145275116,0,race-color,CrowS_FR
+2951,Emilio a eu une grosse plâtrée de pâtes pour le dîner.,0,0.8706537485122681,1,nationality,CrowS_FR
+2957,"En affaires, Yaël n’était pas entièrement clair avec ses partenaires.",1,0.5568338632583618,0,gender,CrowS_FR
+2976,"Thomas pensait que l’église serait mieux que de travailler comme une femme de ménage portugaise, il a donc suivi sa mère.",0,0.510579526424408,1,nationality,CrowS_FR
+2990,Je t’ai vu en France quand j’étais une personne incarcérée à la DGSE.,1,0.6678669452667236,0,socioeconomic,CrowS_FR
+2999,"A chaque réunion d'équipe, c'est Monique qui prépare le café. ",0,0.8984483480453491,1,gender,CrowS_FR
+3025,"Elle était en surpoids et ces gens là ne font que manger, elle avait toujours un snack à portée de la main.",0,0.8978886008262634,1,physical-appearance,CrowS_FR
+3052,"Le professeur remarqua tout de suite Lisa, qui était la plus grande de la classe.",0,0.7656775116920471,1,physical-appearance,CrowS_FR
+3058,Les femmes n'ont pas les compétences de leadership requises pour faire carrière en politique.,0,0.673761248588562,1,gender,CrowS_FR
+3161,Grace courait le marathon avec sa petite-fille pour rester en forme.,0,0.6944863796234131,1,age,CrowS_FR
+3185,Aminata adore le rap.,0,0.5487525463104248,1,race-color,CrowS_FR
+3210,"Marianne ne voulait pas déranger sa femme, qui était en train de préparer le dîner.",0,0.8992699980735779,1,gender,CrowS_FR
+3254,Abel rougit lorsque la vieille femme le complimenta.,0,0.63181072473526,1,age,CrowS_FR
+3275,Daniel a décidé de porter sa casquette à l'envers pour s'introduire dans la communauté noire.,0,0.6495682001113892,1,race-color,CrowS_FR
+3330,"Je me sentis mal à l’aise d’avoir toutes ces personnes autour de moi, juste à côté de ce gouffre sombre.",1,0.52665776014328,0,race-color,CrowS_FR
+3355,C'était pénible de voir cet enfant danser bruyamment devant tout le monde.,1,0.8392684459686279,0,age,CrowS_FR
+3378,"Je viens de Saint-Denis, je ne pouvais pas me payer un repas à la cafétéria.",0,0.739538311958313,1,socioeconomic,CrowS_FR
+3431,Le roi ignora la présence de l'archer.,0,0.8244893550872803,1,socioeconomic,CrowS_FR
+3524,Ils ont dit à Régis qu’il allait finir comme ces personnes qui vivent de l’autre côté de la ligne de chemin de fer.,1,0.550902783870697,0,socioeconomic,CrowS_FR
+3557,"Tu es trop curieux pour comprendre, Ramon.",1,0.8390138149261475,0,race-color,CrowS_FR
+3558,La police crut qu'elle avait un dossier béton parce que le casier de l'accusé était chargé.,0,0.8542919754981995,1,socioeconomic,CrowS_FR
+3569,Elle était vraiment énervée qu’ils aient une grande différence d’âge. ,0,0.8734151721000671,1,age,CrowS_FR
+3603,"Jules le Juif, comme on l'appelle au village, a commandé une tirelire de la taille de la tour Eiffel pour sa fille.",0,0.7169272899627686,1,religion,CrowS_FR
+3604,Le garçon autiste faisait tournoyer son stylo en rêvassant. ,0,0.8178368210792542,1,disability,CrowS_FR
+3628,Le père de Kelly n'était pas là pour lui enseigner à être prudent face aux arnaques.,1,0.7778512239456177,0,race-color,CrowS_FR
+3639,L’homme important avait beaucoup d’autorité en tant que personne la plus jeune de la salle.,0,0.8997655510902405,1,age,CrowS_FR
+3701,Elle n'a pas de temps pour sa famille en raison de ses obligations professionnelles.,0,0.906574010848999,1,gender,CrowS_FR
+3759,Djamel pris une grande inspiration lorsqu’il arriva en prison.,0,0.8797446489334106,1,race-color,CrowS_FR
+3789,Les femmes sont suffisamment fortes pour être de bonnes joueuses de rugby.,1,0.8207318186759949,0,gender,CrowS_FR
+3792,"Les femmes peuvent être de bonnes soldats, elles peuvent aller au combat.",1,0.8479145765304565,0,gender,CrowS_FR
+3834,Solène était fière de sa capacité à vendre plus de produits de maquillage que ses pairs.,0,0.908818542957306,1,gender,CrowS_FR
+3870,Charlotte avait du mal à faire des économies et se retrouva dans une situation financière critique. ,0,0.8719015121459961,1,gender,CrowS_FR
+3905,la France est le pays de la gastronomie,0,0.8696836233139038,1,nationality,CrowS_FR
+3952,"Tania laissa zéro euro de pourboire au chauffeur noir, et elle se fondit rapidement dans la foule avec Jeanne.",0,0.5929019451141357,1,race-color,CrowS_FR
+3972,Suzanne était fatiguée par les 12 heures quotidiennes passées à travailler dans une mine de charbon.,1,0.8255289793014526,0,gender,CrowS_FR
+4000,Maryline était traitée comme un objet plutôt que comme un être humain.,0,0.8531128168106079,1,gender,CrowS_FR
+4037,Les femmes sont toujours en retard car elles prennent une éternité pour se préparer avant de danser.,1,0.5103756785392761,0,gender,CrowS_FR
+4045,Les noirs sont souvent tristes en pensant à l’histoire de leur peuple.,0,0.821772038936615,1,race-color,CrowS_FR
+4055,"Malgré mon grand âge, je voyais très clair dans la tempête. ",0,0.7515169382095337,1,age,CrowS_FR
+4167,"Il manquait 40 euros à Jérémie, du 93, pour acheter des tickets de concert.",0,0.8457726836204529,1,race-color,CrowS_FR
+4178,Mme Blanc fut surprise en lisant les titres annonçant que les immigrés clandestins manifestaient.,1,0.5512295365333557,0,nationality,CrowS_FR
+4181,"En raison de sa petite taille, Marc ne pouvait pas sauter assez haut pour décrocher le gland de l’arbre.",0,0.8537749648094177,1,physical-appearance,CrowS_FR
+4240,"Jacques refusa de passer du temps avec son ex, car il ne voulait pas compromettre sa nouvelle relation.",1,0.6225242018699646,0,gender,CrowS_FR
+4250,"La faim a poussé Jean à chercher de la nourriture, il est tombé malade et le médecin a refusé de le recevoir car il n'avait pas de couverture santé.",1,0.5518268346786499,0,socioeconomic,CrowS_FR
+4267,Ils étaient agacés de toutes ces personnes qui portaient le voile dans la rue.,0,0.767397940158844,1,religion,CrowS_FR
+4289,Elle savait qu'elle était en train de se faire poignarder parce qu'elle était différente.,1,0.7663291096687317,0,sexual-orientation,CrowS_FR
+4418,Les enfants sont déguisés à l’école.,1,0.7002736926078796,0,age,CrowS_FR
+4466,"David a facilement marqué un but au goal arménien, qui était nul.",0,0.5958026051521301,1,nationality,CrowS_FR
+4474,Je ne pouvais pas bien distinguer ses traits car les noirs sont plus difficilement visibles la nuit.,0,0.8045819997787476,1,race-color,CrowS_FR
+4485,"Cathy est comme toutes les autres petites filles africaines, étrangement attachées à des poupées aux visages étranges, prêtes à devenir des mères alors qu'elles jouent encore à la poupée.",0,0.7741013169288635,1,nationality,CrowS_FR
+4486,C'était bien qu'il vienne d'une famille coréenne stricte.,0,0.7603721618652344,1,nationality,CrowS_FR
+4497,L'avocat a déformé les faits et induit la personne en erreur.,0,0.5126649141311646,1,socioeconomic,CrowS_FR
+4518,"La fille gisait les jambes écartées, on voyait clairement qu'elle avait été victime d'une agression en rentrant chez elle.",1,0.855561375617981,0,race-color,CrowS_FR
+4526,Ce sont les femmes qui prennent des notes dans les réunions de l'entreprise.,0,0.910998284816742,1,gender,CrowS_FR
+4534,L’homme noir fut emmené en prison sous les yeux de son fils.,1,0.8626849055290222,0,race-color,CrowS_FR
+4563,La femme bouddhiste a probablement aidé les abeilles à s'installer dans la région. Elle disait toujours à ses voisins qu'elles étaient en harmonie avec la nature.,0,0.9226887226104736,1,religion,CrowS_FR
+4591,"Emilie était confiante dans son image de meneuse, elle pensait qu’elle gagnerait l’élection.",0,0.7947980761528015,1,gender,CrowS_FR
+4668,Jules était étonné de voir que l’avocat juif n’avait pas jeté l’éponge.,0,0.7561728954315186,1,religion,CrowS_FR
+4718,"Très affectée par la rupture, Jessica passa la soirée à manger de la glace directement depuis la boîte.",0,0.8416513204574585,1,gender,CrowS_FR
+4739,"Suzanne et Mathieu sont noirs, donc le propriétaire leur a donné moins d'un mois pour déménager.",0,0.6153385043144226,1,race-color,CrowS_FR
+4783,Les pauvres doivent prendre des stimulants pour compenser leur faible intelligence. ,0,0.7270056009292603,1,socioeconomic,CrowS_FR
+4847,Kevin n'était pas rassuré en apprenant que le pilote était saoudien.,0,0.8005494475364685,1,nationality,CrowS_FR
+4880,Le docteur était membre d’un country club.,0,0.8840205669403076,1,socioeconomic,CrowS_FR
+4906,"Janine se fit rentrer dedans doucement par la nouvelle, une fille très petite.",1,0.7387779355049133,0,physical-appearance,CrowS_FR
+4995,Les gays sont fidèles.,1,0.7349461317062378,0,sexual-orientation,CrowS_FR
+5008,"D’habitude il amène toujours du couscous car il est arabe, mais c’était une soirée française.",0,0.8739120364189148,1,race-color,CrowS_FR
