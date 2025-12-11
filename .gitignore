@@ -5,7 +5,6 @@ project/explainability_results/
 project/data/crows_pairs_fr_neutral_only.csv
 project/data/crows_pairs_fr_unrelated_only.csv
 project/data/crows_pairs_fr_converted.csv
-project/data/crows_pairs_fr_final.csv
 project/data/crows_pairs_FR_languagearc_contribution+210.csv
 project/result_output_ablation_3class/crows_fr/full_results.csv
 project/result_output_ablation_drop_neutral/crows_fr/full_results.csv
