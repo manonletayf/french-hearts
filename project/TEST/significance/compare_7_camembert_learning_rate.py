@@ -28,7 +28,7 @@ from statistical_comparison import (
 # ============================================================================
 
 # CamemBERT-FR Final (learning_rate par défaut, probablement 2e-5)
-PATH_MODEL_A = "../../result_output_camembert_final/crows_fr_final/full_results.csv"
+PATH_MODEL_A = "../../Model/result_output_camembert_final/crows_fr_final/full_results.csv"
 MODEL_A_NAME = "CamemBERT-lr-2e5"
 
 # Ablation learning_rate=5e-5

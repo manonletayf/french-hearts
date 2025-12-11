@@ -172,7 +172,7 @@ def evaluate_model(test_data, model_output_dir, result_output_base_dir, dataset_
 
 if __name__ == "__main__":
     # Load French data with general categories
-    train_data_fr, test_data_fr = data_loader(csv_file_path='data/crows_pairs_fr_final.csv', labelling_criteria='stereotype', dataset_name='CrowS_FR', sample_size=1000000, num_examples=5)
+    train_data_fr, test_data_fr = data_loader(csv_file_path='../data/crows_pairs_fr_final.csv', labelling_criteria='stereotype', dataset_name='CrowS_FR', sample_size=1000000, num_examples=5)
 
     # Execute full pipeline for CamemBERT model - FINAL VERSION
     # Selected hyperparameters: batch_size=64, epoch=6, learning_rate=5e-5

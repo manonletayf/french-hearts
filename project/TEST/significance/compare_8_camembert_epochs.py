@@ -31,7 +31,7 @@ from statistical_comparison import (
 # ============================================================================
 
 # CamemBERT-FR Final (epochs par défaut, probablement 6)
-PATH_MODEL_A = "../../result_output_camembert_final/crows_fr_final/full_results.csv"
+PATH_MODEL_A = "../../Model/result_output_camembert_final/crows_fr_final/full_results.csv"
 MODEL_A_NAME = "CamemBERT-epochs-6"
 
 # Ablation epochs=8

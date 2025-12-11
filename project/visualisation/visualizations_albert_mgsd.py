@@ -48,13 +48,13 @@ COLOR_PALETTE = {
 }
 
 # Data files - ALBERT on MGSD
-ALBERT_RESULTS = "Model/result_output_albertv2/mgsd_trained/mgsd/full_results.csv"
+ALBERT_RESULTS = "../Model/result_output_albertv2/mgsd_trained/mgsd/full_results.csv"
 
 # MGSD Dataset
-DATASET_FILE = "../MGSD.csv"
+DATASET_FILE = "../../MGSD.csv"
 
 # Output directory
-OUTPUT_DIR = "visualisation/visualizations_albert_mgsd"
+OUTPUT_DIR = "visualizations_albert_mgsd"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # ============================================================================

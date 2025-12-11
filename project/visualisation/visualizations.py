@@ -48,21 +48,21 @@ COLOR_PALETTE = {
 }
 
 # Data files
-CAMEMBERT_RESULTS = "Model/result_output_camembert_final/crows_fr_final/full_results.csv"
-DISTILBERT_RESULTS = "result_output_distilbert/crows_fr/full_results.csv"
-ALBERT_RESULTS = "Model/result_output_albert_crows_simple/crows_fr_trained/crows_fr/full_results.csv"
-LOGREG_RESULTS = "result_output_LR_tfidf/crows_fr/full_results.csv"
+CAMEMBERT_RESULTS = "../Model/result_output_camembert_final/crows_fr_final/full_results.csv"
+DISTILBERT_RESULTS = "../result_output_distilbert/crows_fr/full_results.csv"
+ALBERT_RESULTS = "../Model/result_output_albert_crows_simple/crows_fr_trained/crows_fr/full_results.csv"
+LOGREG_RESULTS = "../result_output_LR_tfidf/crows_fr/full_results.csv"
 
-ABLATION_DROP_NEUTRAL = "result_output_ablation_drop_neutral/crows_fr/full_results.csv"
-ABLATION_DROP_UNRELATED = "result_output_ablation_drop_unrelated/crows_fr/full_results.csv"
-ABLATION_MAXLEN = "result_output_ablation_maxlen128/crows_fr/full_results.csv"
-ABLATION_LR = "result_output_ablation_lr5e5/crows_fr/full_results.csv"
-ABLATION_EPOCHS = "result_output_ablation_epoch8/crows_fr/full_results.csv"
+ABLATION_DROP_NEUTRAL = "../result_output_ablation_drop_neutral/crows_fr/full_results.csv"
+ABLATION_DROP_UNRELATED = "../result_output_ablation_drop_unrelated/crows_fr/full_results.csv"
+ABLATION_MAXLEN = "../result_output_ablation_maxlen128/crows_fr/full_results.csv"
+ABLATION_LR = "../result_output_ablation_lr5e5/crows_fr/full_results.csv"
+ABLATION_EPOCHS = "../result_output_ablation_epoch8/crows_fr/full_results.csv"
 
-DATASET_FILE = "data/crows_pairs_fr_final.csv"
+DATASET_FILE = "../data/crows_pairs_fr_final.csv"
 
 # Output directory
-OUTPUT_DIR = "visualisation/visualizations_poster"
+OUTPUT_DIR = "visualizations_poster"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # ============================================================================

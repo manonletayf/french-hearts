@@ -28,12 +28,12 @@ from statistical_comparison import (
 # ============================================================================
 
 # CamemBERT-FR Final (French model)
-PATH_MODEL_A = "../../result_output_camembert_final/crows_fr_final/full_results.csv"
+PATH_MODEL_A = "../../Model/result_output_camembert_final/crows_fr_final/full_results.csv"
 MODEL_A_NAME = "CamemBERT-FR-Final"
 
 # ALBERT-baseline (English model)
 # Uses the simple script: baseline_albert_crows_simple.py
-PATH_MODEL_B = "../../result_output_albert_crows_simple/crows_fr_trained/crows_fr/full_results.csv"
+PATH_MODEL_B = "../../Model/result_output_albert_crows_simple/crows_fr_trained/crows_fr/full_results.csv"
 MODEL_B_NAME = "ALBERT-base-v2"
 
 # Output folder

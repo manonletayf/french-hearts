@@ -17,7 +17,7 @@ import os
 # ============================================================================
 
 # Paths to the result files of the two models
-PATH_MODEL_A = "../../result_output_camembert_final/crows_fr_final/full_results.csv"
+PATH_MODEL_A = "../../Model/result_output_camembert_final/crows_fr_final/full_results.csv"
 PATH_MODEL_B = "../../result_output_distilbert/crows_fr/full_results.csv"
 
 # Names of the models (for reports)

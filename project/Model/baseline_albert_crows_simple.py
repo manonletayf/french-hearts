@@ -144,7 +144,7 @@ def evaluate_model(test_data, model_output_dir, result_output_base_dir, dataset_
 
 # Load CrowS-Pairs French dataset instead of MGSD
 train_data_crows, test_data_crows = data_loader(
-    csv_file_path='data/crows_pairs_fr_final.csv',
+    csv_file_path='../data/crows_pairs_fr_final.csv',
     labelling_criteria='stereotype',
     dataset_name='crows_fr',
     sample_size=1000000,

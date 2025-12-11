@@ -7,12 +7,12 @@ import pandas as pd
 import os
 
 # Load original dataset to get line numbers
-original_dataset_file = 'data/crows_pairs_fr_final.csv'
+original_dataset_file = '../data/crows_pairs_fr_final.csv'
 original_df = pd.read_csv(original_dataset_file)
 original_df['original_line_number'] = original_df.index
 
 # Load CamemBERT model results
-results_file = 'Model/result_output_camembert/crows_fr_trained/crows_fr/full_results.csv'
+results_file = 'result_output_camembert/crows_fr_trained/crows_fr/full_results.csv'
 results_df = pd.read_csv(results_file)
 
 # Merge with original dataset to get original line numbers
@@ -44,7 +44,7 @@ group_stats = group_stats.sort_values('error_count', ascending=False)
 print(group_stats.to_string(index=False))
 
 # Save to new CSV file
-output_dir = 'Model/result_output_camembert/crows_fr_trained/crows_fr'
+output_dir = 'result_output_camembert/crows_fr_trained/crows_fr'
 output_file = os.path.join(output_dir, 'errors_by_group.csv')
 errors_df.to_csv(output_file, index=False)
 
