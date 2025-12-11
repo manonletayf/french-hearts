@@ -32,3 +32,5 @@ project/results_significance/camembert_vs_logreg/bootstrap_distribution.csv
 project/TEST/__pycache__/
 project/TEST/ABLATION/__pycache__/
 project/TEST/significance/__pycache__/
+.DS_Store
+**/.DS_Store
