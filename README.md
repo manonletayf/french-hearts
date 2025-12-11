@@ -145,9 +145,3 @@ For the original English implementation and EMGSD dataset, see the [HEARTS paper
 ## License
 
 This repository is licensed under the [MIT License](LICENSE).
-
----
-
-## Contact
-
-For questions or collaborations, contact [Holistic AI](https://www.holisticai.com).
