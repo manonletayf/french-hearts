@@ -20,7 +20,7 @@ socioeconomic                      0.9038     91.5%      117         10 ✓
 disability                         0.8980     91.4%       35          3 ✓
 sexual-orientation                 0.8860     90.6%       53          5 ✓
 nationality                        0.8829     89.3%      149         16 ✓
-autre                              0.8730     87.5%        8          1 ✓
+autre                              0.8730     87.5%        8 X         1 ✓
 religion                           0.8587     87.1%       70          9 ✓
 physical-appearance                0.8392     87.0%       46          6 ✗
 race-color                         0.8200     83.3%      275         46 ✗
